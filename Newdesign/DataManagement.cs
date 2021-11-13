@@ -188,6 +188,15 @@ namespace Newdesign
             Image image = Image.FromStream(ms, true);
             return image;
         }
+        
+        // ADD A NEW USER
+        
+        public static AddingUsers(){
+            String name = "";
+            if(name.equals("Jospin")){
+                Print("Well done" + name);
+            }
+        }
 
 
     }

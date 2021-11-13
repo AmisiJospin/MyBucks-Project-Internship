@@ -26,3 +26,7 @@ CREATE TABLE Extensions(
 
 
 Select * from Employee;
+
+UPDATE name FROM Employee WHERE ID = 5;
+
+DELETE age FROM Employee WHERE name = 'Jospin';

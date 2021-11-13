@@ -20,6 +20,9 @@ namespace Newdesign
             label4.Text = "This Option is used to Add The Department name and extension number used for communication";
             label5.Text = "To Add A new Employee This option will help.";
         }
-
+        
+        public static Name(){
+            float number = 5.8;
+        }
     }
 }

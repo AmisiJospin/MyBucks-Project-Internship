@@ -163,6 +163,8 @@ namespace Newdesign
             }
         }
 
+        // CONVERSION OF IMAGE TO THE DATABASE
+        
         public static string ImageToBase64(Image image,
           System.Drawing.Imaging.ImageFormat format)
         {

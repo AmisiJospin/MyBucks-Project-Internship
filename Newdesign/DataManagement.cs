@@ -49,7 +49,8 @@ namespace Newdesign
             }
 
         }
-
+    
+        // INSERT A NEW EXTENSION and LOCATION
         public static string AddExtensions(string extension, string location)
         {
             if (connection == null)

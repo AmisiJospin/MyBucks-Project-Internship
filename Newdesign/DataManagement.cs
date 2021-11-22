@@ -180,6 +180,7 @@ namespace Newdesign
             }
         }
 
+        // GETTING IMAGE FROM THE DATABASE AND DISPLAY IT
         public static Image Base64ToImage(string base64String)
         {
             // Convert Base64 String to byte[]

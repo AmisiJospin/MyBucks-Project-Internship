@@ -104,6 +104,8 @@ namespace Newdesign
             gender = "Female";
         }
        
+       // This code uploads a picture of the profile
+       
         private void profile_Click(object sender, EventArgs e)
         {
             OpenFileDialog open = new OpenFileDialog();

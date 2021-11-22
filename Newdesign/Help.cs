@@ -23,6 +23,7 @@ namespace Newdesign
         
         public static Name(){
             float number = 5.8;
+            number = number.int();
         }
     }
 }

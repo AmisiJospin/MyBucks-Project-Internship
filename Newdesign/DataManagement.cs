@@ -94,6 +94,7 @@ namespace Newdesign
             return ArrayEmployee;
         }
 
+        // SELECT ALL EXTENSIONS and SHOW THEM
         public static List<ExtensionClass> GetAllExtensions()
         {
             if (connection == null)

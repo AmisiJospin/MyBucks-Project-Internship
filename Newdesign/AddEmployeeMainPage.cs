@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Newdesign
 {
+    // The first class to AddEmployee
     public partial class AddEmployeeMainPage : UserControl
     {
         public AddEmployeeMainPage()
@@ -66,7 +67,7 @@ namespace Newdesign
             }
         }
         
-
+        // Enter Role
         private void Role_Enter(object sender, EventArgs e)
         {
             if (Role.Text == "Role In Department")
@@ -84,6 +85,7 @@ namespace Newdesign
             }
         }
 
+         // Save Data using the button event
         private void SaveData_Click(object sender, EventArgs e)
         {
             DataManagement.connection.Open();
@@ -104,7 +106,7 @@ namespace Newdesign
             gender = "Female";
         }
        
-       // This code uploads a picture of the profile
+       // This code uploads a picture of the profile using different formats
        
         private void profile_Click(object sender, EventArgs e)
         {

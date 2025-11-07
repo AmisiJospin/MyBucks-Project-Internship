@@ -4,6 +4,7 @@ drop database NFBDataBase;
 
 drop table Extensions;
 
+-- Creating table Employee
 
 CREATE TABLE Employee(
     ID INT PRIMARY KEY IDENTITY (1, 1),
@@ -17,6 +18,7 @@ CREATE TABLE Employee(
 
 );
 
+-- Creating table Employee
 
 CREATE TABLE Extensions(
     ID INT PRIMARY KEY IDENTITY (1, 1),
@@ -24,9 +26,14 @@ CREATE TABLE Extensions(
     Location VARCHAR(20) NOT NULL,
 );
 
+-- Select table Employee
 
 Select * from Employee;
 
+-- Updating table Employee
+
 UPDATE name FROM Employee WHERE ID = 5;
+
+-- Deleting table Employee
 
 DELETE age FROM Employee WHERE name = 'Jospin';

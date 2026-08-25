@@ -1,4 +1,6 @@
-﻿use NFBDataBase;
+-- These are the steps to follow to create a database
+
+use NFBDataBase;
 
 drop database NFBDataBase;
 

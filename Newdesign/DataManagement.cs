@@ -17,14 +17,14 @@ namespace Newdesign
         public static SqlCommand command;
         public static SqlDataReader read;
 
-        // CONNECTION OF DATABASE AND THE APPLICATION
+        // CONNECTION OF DATABASE AND THE APPLICATION using SQL SERVER
         public static void ConnectDB()
         {
             connection = new SqlConnection(@"Data Source=(localdb)\ProjectsV13;Initial Catalog=NFBDataBase;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
         }
 
-        //INSERT DATA INTO THE TABLE EMPLOYEES
+        //INSERT DATA INTO THE TABLE EMPLOYEES to the database
         public static string AddEmployee(string name, string gender, string extension, string phone, string location,string role, string profile)
         {
             if (connection == null)
@@ -50,7 +50,7 @@ namespace Newdesign
 
         }
     
-        // INSERT A NEW EXTENSION and LOCATION
+        // INSERT A NEW EXTENSION and LOCATION to the database
         public static string AddExtensions(string extension, string location)
         {
             if (connection == null)

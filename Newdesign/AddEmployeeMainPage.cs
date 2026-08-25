@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Newdesign
 {
-    // The first class to AddEmployee
+    // The first class to AddEmployee that needs to be called in the main page of the application
     public partial class AddEmployeeMainPage : UserControl
     {
         public AddEmployeeMainPage()

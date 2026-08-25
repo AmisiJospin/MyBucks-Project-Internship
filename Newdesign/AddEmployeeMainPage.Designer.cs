@@ -1,5 +1,6 @@
 ﻿namespace Newdesign
 {
+    // here the class is used to add the employee data into the database and also to add the profile image of the employee
     partial class AddEmployeeMainPage
     {
         /// <summary> 

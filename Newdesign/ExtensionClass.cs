@@ -8,7 +8,8 @@ namespace Newdesign
 {
    public class ExtensionClass
     {
-
+        // Summary>
+        /// Interaction logic for ExtensionClass.xaml
         public string  Extension,  Location;
         public static int ID;
 

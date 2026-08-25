@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 namespace Newdesign
 {
+    // Summary>
+    /// Interaction logic for AddExtensionPanel.xaml
     public partial class AddExtensionPanel : UserControl
     {
         public AddExtensionPanel()

@@ -1,4 +1,4 @@
-git# NFB Employee Information
+# New Finance Bank(NFB) Employee Information
 
 NFB Employee Information is a Windows desktop employee directory built with C# Windows Forms. It is designed to let users maintain employee contact information, associate employees with internal extensions and departments, search for an employee, and view basic usage guidance.
 

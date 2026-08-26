@@ -16,9 +16,9 @@ namespace Newdesign
         {
             InitializeComponent();
             
-            label3.Text = "Home: In This option You are Able to Search Any Employee Who is registered in the database";
-            label4.Text = "This Option is used to Add The Department name and extension number used for communication";
-            label5.Text = "To Add A new Employee This option will help.";
+            label3.Text = "Home: In this option, you can search for any employee who is registered in the database";
+            label4.Text = "This option is used to add the department name and extension number used for communication";
+            label5.Text = "To add a new employee, this option will help. You need to have his information to add.";
         }
         
         public static Name(){

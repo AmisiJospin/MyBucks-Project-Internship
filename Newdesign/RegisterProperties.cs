@@ -16,6 +16,7 @@ namespace Newdesign
 
         }
 
+        // This constructor will get the values of the registration page
         public RegisterProperties(string name, string gender, string extension, string phoneNumber, string location, string role, string profileImages)
         {
             Name = name;
@@ -25,6 +26,7 @@ namespace Newdesign
             Location = location;
         }
 
+        //Getting the values from the form and add it to the database
         public RegisterProperties(int id, string name, string gender, string extension, string phoneNumber, string location, string role, string profileImages)
         {
             ID = id;

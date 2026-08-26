@@ -21,6 +21,7 @@ namespace Newdesign
             DataManagement.ConnectDB();
         }
 
+        // Searching employee by name or ID
         private void textBox1_Enter(object sender, EventArgs e)
         {
             if (textBox1.Text == "Search Employee...")
@@ -29,6 +30,7 @@ namespace Newdesign
             }
         }
 
+        // Clean the textbox and add employee by name or ID
         private void textBox1_Leave(object sender, EventArgs e)
         {
             if (textBox1.Text == "")

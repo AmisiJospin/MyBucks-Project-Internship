@@ -1,8 +1,10 @@
-﻿body{
+ // margin for the body page
+body{
 	margin: 0 auto;
 	width:1200px;
 }
 
+ // header is important to have a background and color
 .header{
 	height:200px;
 	width:100%;
@@ -24,6 +26,7 @@ nav{
 
 }
 
+ // Navigation menu with all the properties
 nav a{
 	text-decoration:none;
 	background: gray;

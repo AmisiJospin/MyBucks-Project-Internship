@@ -3,7 +3,7 @@
     partial class Help
     {
         /// <summary> 
-        /// Required designer variable.
+        /// Required designer variable as needed 
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
@@ -24,7 +24,7 @@
 
         /// <summary> 
         /// Required method for Designer support - do not modify 
-        /// the contents of this method with the code editor.
+        /// the contents of this method with the code editor. I agree with that
         /// </summary>
         private void InitializeComponent()
         {

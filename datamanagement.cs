@@ -40,9 +40,9 @@ namespace Appfactory
             string[] phoneNumber = { "0992129078", "0885042078", "0997522157", "0887838609", "0997560309" };
             string[] laptopNumber = { "35423", "35001", "35211", "35120", "35005" };
             string[] studentNumber = { "af21", "af15", "af4", "af10", "af7" };
-            string[] description = { "HP Elite Book", "ASUS new Version", "HP Elite Book", "ASUS new Version", "HP Elite Book" };
+            string[] description = { "HP Elite Book", "ASUS New Version", "HP Elite Book", "ASUS new Version", "HP Elite Book" };
             string[] serialNum = { "5GC893J", "5GC893J", "5GC893J", "5GC893J", "5GC893J" };
-            string[] macAddress = { "F3434433df", "F3434433df", "F3434433df", "F3434433df", "F3434433df" };
+            string[] macAddress = { "F3414433df", "F3424433df", "F3434433df", "F3444433df", "F3454433df" };
         
             for (int j = 0; j < names.Length; j++)
             {
@@ -127,9 +127,9 @@ namespace Appfactory
         // load student in a file 
         public static void LoadStudentInToArrayFromFile() {
 
-            // This is a path of creating a folder of where your list of student will be stored.
+            // This is a path for creating a folder where your list of students will be stored.
             // By adding a backslash can create another folder within your application in debug
-            // When you are creating a folder where u don't have access of the admin then u have to specify
+            // When you are creating a folder where u don't have access as an admin, then u have to specify
             // the security system.
 
 

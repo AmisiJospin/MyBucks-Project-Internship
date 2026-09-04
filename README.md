@@ -179,6 +179,10 @@ The application entry point is `Newdesign/Program.cs`, which starts `Form1` and 
 5. Add input validation and a not-found state to the UI.
 6. Add automated tests for data mapping, image conversion, and database operations.
 
+## Contacts
+1. Email: jospinamissi@gmail.com 
+2. Phone Number: +265 992 129 078
+
 ## License
 
 No license file is included in this repository. Add an appropriate license before distributing the project.

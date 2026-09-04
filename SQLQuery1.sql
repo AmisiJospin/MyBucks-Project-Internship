@@ -28,6 +28,14 @@ CREATE TABLE Extensions(
     Location VARCHAR(20) NOT NULL,
 );
 
+-- Insert into Employee 
+
+INSERT INTO Employee VALUES ("1", "Jospin", "Male", "104", "0992129078", "City Center", "IT Officer", "Employee 34");
+
+-- Insert into Extensions
+
+INSERT INTO Extensions VALUES ("2", "109", "Old Town");
+
 -- Select table Employee
 
 Select * from Employee;

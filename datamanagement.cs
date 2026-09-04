@@ -16,7 +16,7 @@ namespace Appfactory
                                            Properties.Resources.admin, Properties.Resources.admin1
                                         };
 
-        // Activation of and initialization of array
+        // Activation and initialization of array with its values
         public static void studentsActivator() {
             students = new Appfactory[20];
 
@@ -29,7 +29,7 @@ namespace Appfactory
             }
         }
 
-        // Add 5 students in array without passing from the form of adding
+        // Add 5 students in array without passing from the form of adding every time the application is opened.
         public static void AddFiveStudents()
         {
 
@@ -62,7 +62,7 @@ namespace Appfactory
 
         }
 
-        // Adding a new student
+        // This function is used to add new student
         public static void AddNewStudent(string name, byte age, char gender, string location, string phone, string stdNumber, string laptopNum, string descr, string serialNum, string macAdr, string dateOfToday, string timeIn, string timeOut, int images)
         {
             for (int j = 0; j < students.Length; j++)
@@ -94,7 +94,7 @@ namespace Appfactory
             }
         }
 
-        // Update a student
+        //This function is used to update a student's information
         public static void Update(string name, byte age, char gender, string location, string phone, string stdNumber, string laptopNum, string descr, string serialNum, string macAdr, string dateOfToday, string timeIn, string timeOut, int images)
         {
             for (int j = 0; j < students.Length; j++)

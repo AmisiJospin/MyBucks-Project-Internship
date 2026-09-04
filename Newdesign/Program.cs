@@ -9,7 +9,7 @@ namespace Newdesign
     static class Program
     {
         /// <summary>
-        /// The main entry point for the application; it is important to have this function.
+        /// The main entry point for the application; it is important to have this function as the application is running from it.
         /// </summary>
         [STAThread]
         static void Main()
